@@ -1,5 +1,8 @@
 # 42dico
 
+Function names used in C programming ordered by 42Lausanne exercices.
+
+
 # C 00
 
 1. **putchar**: This function likely takes a single character as an argument and prints it to the standard output. It's similar to the standard C function `putchar()`.

@@ -7,21 +7,21 @@ Function names used in C programming ordered by 42Lausanne exercices. * Does not
 
 1. **putchar**: This function likely takes a single character as an argument and prints it to the standard output. It's similar to the standard C function `putchar()`.
 
-2. **print_alphabet**: This function probably prints the English alphabet ('a' to 'z' or 'A' to 'Z') to the standard output.
+2. **print_alphabet**: This function prints the English alphabet ('a' to 'z' or 'A' to 'Z') to the standard output.
 
-3. **print_reverse_alphabet**: This function likely prints the English alphabet in reverse order ('z' to 'a' or 'Z' to 'A') to the standard output.
+3. **print_reverse_alphabet**: This function prints the English alphabet in reverse order ('z' to 'a' or 'Z' to 'A') to the standard output.
 
-4. **print_numbers**: This function likely prints the digits (0 to 9) to the standard output.
+4. **print_numbers**: This function prints the digits (0 to 9) to the standard output.
 
-5. **is_negative**: This function likely takes an integer as an argument and checks if it's negative. It could return a boolean value or print a result to the standard output.
+5. **is_negative**: This function takes an integer as an argument and checks if it's negative. It could return a boolean value or print a result to the standard output.
 
-6. **print_comb**: This function likely prints all possible combinations of some set of numbers or characters. The specific set it operates on might be defined within the function or passed as an argument.
+6. **print_comb**: This function prints all possible combinations of some set of numbers or characters. The specific set it operates on might be defined within the function or passed as an argument.
 
-7. **print_comb2**: This function is likely a variation of `print_comb`. It might print combinations in a different order or format, or operate on a different set of numbers or characters.
+7. **print_comb2**: This function is a variation of `print_comb`. It might print combinations in a different order or format, or operate on a different set of numbers or characters.
 
-8. **putnbr**: This function likely takes an integer as an argument and prints it to the standard output. It's a common task in C programming.
+8. **putnbr**: This function takes an integer as an argument and prints it to the standard output. It's a common task in C programming.
 
-9. **print_combn**: This function is likely another variation of `print_comb`. It might take an integer 'n' as an argument and print all combinations of 'n' elements from a specific set. 
+9. **print_combn**: This function is another variation of `print_comb`. It might take an integer 'n' as an argument and print all combinations of 'n' elements from a specific set. 
 
 # C 01
 
@@ -31,17 +31,17 @@ Function names used in C programming ordered by 42Lausanne exercices. * Does not
 
 3. **swap**: This function probably swaps the values of two variables. It would likely take two pointers to variables as arguments and interchange the values at those memory addresses.
 
-4. **div_mod**: This function likely performs both division and modulo operations. It might take two integer arguments and two pointers to store the results of the division (quotient) and modulo (remainder).
+4. **div_mod**: This function performs both division and modulo operations. It might take two integer arguments and two pointers to store the results of the division (quotient) and modulo (remainder).
 
 5. **ultimate_div_mod**: This function might be a more advanced or comprehensive version of "div_mod", maybe handling more edge cases or additional functionality.
 
-6. **putstr**: This function probably takes a string as an argument and prints it to the standard output. It's similar to the standard C function `puts()`.
+6. **putstr**: This function takes a string as an argument and prints it to the standard output. It's similar to the standard C function `puts()`.
 
-7. **strlen**: This function likely calculates and returns the length of a string. It's similar to the standard C function `strlen()`.
+7. **strlen**: This function calculates and returns the length of a string. It's similar to the standard C function `strlen()`.
 
-8. **rev_int_tab**: This function probably reverses the order of elements in an integer array.
+8. **rev_int_tab**: This function reverses the order of elements in an integer array.
 
-9. **sort_int_tab**: This function likely sorts an integer array in ascending or descending order.
+9. **sort_int_tab**: This function sorts an integer array in ascending or descending order.
 
 # C 02
 
@@ -49,27 +49,27 @@ Function names used in C programming ordered by 42Lausanne exercices. * Does not
 
 2. **strncpy**: A standard function that copies up to n characters from the string pointed by source to the destination. If the source string length is less than n, the remainder of the destination will be padded with null characters.
 
-3. **str_is_alpha**: Likely a custom function that checks if a string contains only alphabetic characters. It might return 1 if true and 0 if false.
+3. **str_is_alpha**: A custom function that checks if a string contains only alphabetic characters. It might return 1 if true and 0 if false.
 
-4. **str_is_numeric**: Likely a custom function that checks if a string contains only numeric characters. It might return 1 if true and 0 if false.
+4. **str_is_numeric**: A custom function that checks if a string contains only numeric characters. It might return 1 if true and 0 if false.
 
-5. **str_is_lowercase**: Likely a custom function that checks if a string contains only lowercase alphabetic characters. It might return 1 if true and 0 if false.
+5. **str_is_lowercase**: A custom function that checks if a string contains only lowercase alphabetic characters. It might return 1 if true and 0 if false.
 
-6. **str_is_uppercase**: Likely a custom function that checks if a string contains only uppercase alphabetic characters. It might return 1 if true and 0 if false.
+6. **str_is_uppercase**: A custom function that checks if a string contains only uppercase alphabetic characters. It might return 1 if true and 0 if false.
 
-7. **str_is_printable**: Likely a custom function that checks if a string contains only printable characters. It might return 1 if true and 0 if false.
+7. **str_is_printable**: A custom function that checks if a string contains only printable characters. It might return 1 if true and 0 if false.
 
-8. **strupcase**: Likely a custom function that converts all the lowercase characters of a string to uppercase.
+8. **strupcase**: A custom function that converts all the lowercase characters of a string to uppercase.
 
-9. **strlowcase**: Likely a custom function that converts all the uppercase characters of a string to lowercase.
+9. **strlowcase**: A custom function that converts all the uppercase characters of a string to lowercase.
 
-10. **strcapitalize**: Likely a custom function that capitalizes the first letter of each word in a string and makes all other letters lowercase.
+10. **strcapitalize**: A custom function that capitalizes the first letter of each word in a string and makes all other letters lowercase.
 
-11. **strlcpy 15**: This appears to be a call to the function `strlcpy` with the argument `15`. `strlcpy` is a standard function that copies up to a specified length from the source string to the destination, ensuring null-termination.
+11. **strlcpy 15**: This is a call to the function `strlcpy` with the argument `15`. `strlcpy` is a standard function that copies up to a specified length from the source string to the destination, ensuring null-termination.
 
-12. **putstr_non_printable**: Likely a custom function that prints a string, but for non-printable characters, it could print their hexadecimal representation.
+12. **putstr_non_printable**: A custom function that prints a string, but for non-printable characters, it could print their hexadecimal representation.
 
-13. **print_memory**: Likely a custom function that prints the memory representation of data. This could be used for debugging purposes.
+13. **print_memory**: A custom function that prints the memory representation of data. This could be used for debugging purposes.
 
 # C 03
 
@@ -130,17 +130,17 @@ Function names used in C programming ordered by 42Lausanne exercices. * Does not
 
 # C 07
 
-1. **strdup**: This function would likely create a copy of a given string by dynamically allocating memory (using `malloc` or similar) and then copying the string into the new memory location.
+1. **strdup**: This function would create a copy of a given string by dynamically allocating memory (using `malloc` or similar) and then copying the string into the new memory location.
 
-2. **range**: This function might create an array of sequential integers within a given range. For instance, `range(1,5)` could produce an array `[1, 2, 3, 4, 5]`.
+2. **range**: This function create an array of sequential integers within a given range. For instance, `range(1,5)` could produce an array `[1, 2, 3, 4, 5]`.
 
-3. **ultimate_range**: This function might be an extension of `range`, potentially returning more information such as the size of the range or allowing for steps other than 1.
+3. **ultimate_range**: This function be an extension of `range`, potentially returning more information such as the size of the range or allowing for steps other than 1.
 
-4. **strjoin**: This function likely concatenates two strings. It might allocate memory for a new string that contains the contents of both input strings one after the other.
+4. **strjoin**: This function concatenates two strings. It might allocate memory for a new string that contains the contents of both input strings one after the other.
 
-5. **convert_base**: This function might convert a number from one base to another. For example, it could be used to convert a binary number to a decimal number or a decimal number to hexadecimal.
+5. **convert_base**: This function convert a number from one base to another. For example, it could be used to convert a binary number to a decimal number or a decimal number to hexadecimal.
 
-6. **split**: This function could split a string into an array of strings based on a given delimiter. For example, `split("hello world", " ")` could return an array with two elements: `["hello", "world"]`.
+6. **split**: This function splits a string into an array of strings based on a given delimiter. For example, `split("hello world", " ")` could return an array with two elements: `["hello", "world"]`.
 
 # C 08
 

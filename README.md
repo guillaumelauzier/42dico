@@ -1,6 +1,6 @@
 # 42dico
 
-Function names used in C programming ordered by 42Lausanne exercices. * Does not include RushXX, ExamXX, ShellXX.
+Function names used in C programming course Piscine ordered by 42Lausanne exercices. * Does not include RushXX, ExamXX, ShellXX.
 
 
 # C 00

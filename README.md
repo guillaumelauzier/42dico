@@ -25,9 +25,9 @@ Function names used in C programming ordered by 42Lausanne exercices. * Does not
 
 # C 01
 
-1. **ft**: "ft" usually stands for "function". It is a common prefix used by developers at 42 school network to indicate that a function is a part of their own library, not a standard function from the C library.
+1. **ft**: This function accepts a pointer to an integer as a parameter and sets the value pointed by the integer pointer to 42. The function doesn't return anything (void). The function is prototyped as follows:
 
-2. **ultimate_ft**: Based on the name, this function could be a more advanced or comprehensive version of a function named "ft". Without more information about its functionality, it's hard to be more specific.
+2. **ultimate_ft**: This function takes a nine-level deep pointer to an integer as an argument and sets the value pointed by this nine-level pointer to 42. The function doesn't return anything (void). The function is prototyped as follows:
 
 3. **swap**: This function probably swaps the values of two variables. It would likely take two pointers to variables as arguments and interchange the values at those memory addresses.
 

@@ -5,7 +5,7 @@ Function names used in C programming ordered by 42Lausanne exercices. * Does not
 
 # C 00
 
-1. **putchar**: This function likely takes a single character as an argument and prints it to the standard output. It's similar to the standard C function `putchar()`.
+1. **putchar**: This function takes a single character as an argument and prints it to the standard output. It's similar to the standard C function `putchar()`.
 
 2. **print_alphabet**: This function prints the English alphabet ('a' to 'z' or 'A' to 'Z') to the standard output.
 

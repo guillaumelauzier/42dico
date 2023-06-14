@@ -249,7 +249,77 @@ Function names used in C programming course Piscine ordered by 42Lausanne exerci
 8. **btree_apply_by_level**: This function would traverse a binary tree level by level (a breadth-first traversal) and apply a provided function to the data in each node. This might be used, for example, to print the data in the nodes level by level.
 
 
+# Special Characters
 
+In C programming, several characters and character sequences are used with special meanings, often referred to as symbols or operators. Here's a list of most commonly used characters and their typical meanings:
+
+1. **()**: Parentheses are used for function calls and declarations, grouping in expressions, and to specify the condition in control flow structures.
+
+2. **{}**: Braces are used to define blocks of code, such as function or control flow structures.
+
+3. **;**: Semicolon is used to terminate statements.
+
+4. **' '**: Single quotes define character constants.
+
+5. **" "**: Double quotes define string literals.
+
+6. **#**: Used for preprocessor directives, like `#include` and `#define`.
+
+7. **,**: Comma is used as a separator, e.g., in function arguments and in multiple declarations/assignments.
+
+8. **&**: Ampersand is used for the "address of" operator and also as a bitwise AND operator.
+
+9. **|**: The pipe symbol is used as a bitwise OR operator.
+
+10. **^**: The caret is used as a bitwise XOR operator.
+
+11. **~**: Tilde is used as a bitwise NOT operator.
+
+12. **\***: Asterisk is used for declaring pointers, dereferencing pointers, and multiplication.
+
+13. **/**: Forward slash is used for comments (when followed by another slash) and division.
+
+14. **\\**: Backslash is used for escape sequences in character and string literals.
+
+15. **->**: Arrow operator is used to access members of a structure or union via a pointer.
+
+16. **.**: Dot is used to access members of a structure or union.
+
+17. **[]**: Square brackets are used for array indexing.
+
+18. **<>**: Angle brackets are used with `#include` to specify system header files.
+
+19. **-**: Minus sign is used for subtraction/negation and also to denote a negative number.
+
+20. **+**: Plus sign is used for addition and to denote a positive number.
+
+21. **>** and **<**: Greater than and less than comparison operators.
+
+22. **>=** and **<=**: Greater than or equal to and less than or equal to operators.
+
+23. **==**: Equality operator.
+
+24. **!=**: Not equal to operator.
+
+25. **&&**: Logical AND operator.
+
+26. **||**: Logical OR operator.
+
+27. **!**: Logical NOT operator.
+
+28. **++** and **--**: Increment and decrement operators.
+
+29. **%**: Modulus operator.
+
+30. **? :**: Ternary conditional operator.
+
+31. **=**: Assignment operator.
+
+32. **+=, -=, *=, /=, %=, >>=, <<=, &=, ^=, |=**: Compound assignment operators.
+
+33. **<< and >>**: Bitwise shift operators.
+
+Note: The meaning of these characters can change depending on the context. For example, `*` can be used for multiplication in an arithmetic expression, to declare a pointer variable, or to dereference a pointer.
 
 
 

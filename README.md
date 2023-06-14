@@ -65,7 +65,7 @@ Function names used in C programming course Piscine ordered by 42Lausanne exerci
 
 10. **strcapitalize**: A custom function that capitalizes the first letter of each word in a string and makes all other letters lowercase.
 
-11. **strlcpy 15**: This is a call to the function `strlcpy` with the argument `15`. `strlcpy` is a standard function that copies up to a specified length from the source string to the destination, ensuring null-termination.
+11. **strlcpy 15**:The `strlcpy` function in C is a string handling function that is used to copy the string from source to destination. It is similar to the `strcpy` function but with a few important differences. 
 
 12. **putstr_non_printable**: A custom function that prints a string, but for non-printable characters, it could print their hexadecimal representation.
 

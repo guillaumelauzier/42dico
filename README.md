@@ -25,9 +25,9 @@ Function names used in C programming course Piscine ordered by 42Lausanne exerci
 
 # C 01
 
-1. **ft**: This function accepts a pointer to an integer as a parameter and sets the value pointed by the integer pointer to 42. The function doesn't return anything (void). The function is prototyped as follows:
+1. **ft**: This function accepts a pointer to an integer as a parameter and sets the value pointed by the integer pointer to 42. The function doesn't return anything (void).
 
-2. **ultimate_ft**: This function takes a nine-level deep pointer to an integer as an argument and sets the value pointed by this nine-level pointer to 42. The function doesn't return anything (void). The function is prototyped as follows:
+2. **ultimate_ft**: This function takes a nine-level deep pointer to an integer as an argument and sets the value pointed by this nine-level pointer to 42. The function doesn't return anything (void).
 
 3. **swap**: This function swaps the values of two variables. It would likely take two pointers to variables as arguments and interchange the values at those memory addresses.
 

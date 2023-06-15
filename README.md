@@ -29,7 +29,7 @@ Function names used in C programming course Piscine ordered by 42Lausanne exerci
 
 2. **ultimate_ft**: This function takes a nine-level deep pointer to an integer as an argument and sets the value pointed by this nine-level pointer to 42. The function doesn't return anything (void). The function is prototyped as follows:
 
-3. **swap**: This function probably swaps the values of two variables. It would likely take two pointers to variables as arguments and interchange the values at those memory addresses.
+3. **swap**: This function swaps the values of two variables. It would likely take two pointers to variables as arguments and interchange the values at those memory addresses.
 
 4. **div_mod**: This function performs both division and modulo operations. It might take two integer arguments and two pointers to store the results of the division (quotient) and modulo (remainder).
 
@@ -120,13 +120,13 @@ Function names used in C programming course Piscine ordered by 42Lausanne exerci
 
 # C 06
 
-1. **print_program_name**: This function likely prints the name of the program. In C, when a program is run, the first argument (argv[0]) is always the name of the program. So, this function might print argv[0].
+1. **print_program_name**: This function prints the name of the program. In C, when a program is run, the first argument (argv[0]) is always the name of the program. So, this function might print argv[0].
 
-2. **print_params**: This function likely prints the parameters or arguments passed to the program. In a C program, these are accessed through the argv array, which starts from argv[1] to argv[argc-1].
+2. **print_params**: This function prints the parameters or arguments passed to the program. In a C program, these are accessed through the argv array, which starts from argv[1] to argv[argc-1].
 
-3. **rev_params**: This function likely prints the parameters or arguments passed to the program in reverse order. It would start from argv[argc-1] and go down to argv[1].
+3. **rev_params**: This function prints the parameters or arguments passed to the program in reverse order. It would start from argv[argc-1] and go down to argv[1].
 
-4. **sort_params**: This function likely sorts the parameters or arguments passed to the program. It could use a sorting algorithm (like bubble sort, quick sort, etc.) to sort the argv array from argv[1] to argv[argc-1] and then print the sorted parameters.
+4. **sort_params**: This function sorts the parameters or arguments passed to the program. It could use a sorting algorithm (like bubble sort, quick sort, etc.) to sort the argv array from argv[1] to argv[argc-1] and then print the sorted parameters.
 
 # C 07
 

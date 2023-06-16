@@ -249,6 +249,31 @@ Function names used in C programming course Piscine ordered by 42Lausanne exerci
 8. **btree_apply_by_level**: This function would traverse a binary tree level by level (a breadth-first traversal) and apply a provided function to the data in each node. This might be used, for example, to print the data in the nodes level by level.
 
 
+# Data types
+
+There are several data types, which can be grouped into the following categories:
+
+1. **Primary (Built-in) Data Types:**
+   - `int`: To store integer values.
+   - `float`: To store decimal numbers.
+   - `double`: To store large decimal numbers.
+   - `char`: To store a single character.
+   - `void`: Special purpose type without any value.
+
+2. **Derived Data Types:**
+   - `array`: To store multiple values of the same type.
+   - `function`: Used to create functions.
+   - `pointer`: For storing address of variables.
+
+3. **Enumeration types:**
+   - `enum`: For user defined data types.
+
+4. **User Defined Data Types:**
+   - `struct`: To create a data type that can contain other data types.
+   - `union`: Similar to struct but it can store only one variable at a time.
+
+Each of these data types requires different amounts of memory, and they have specific operations that can be performed on them.
+
 # Special Characters
 
 In C programming, several characters and character sequences are used with special meanings, often referred to as symbols or operators. Here's a list of most commonly used characters and their typical meanings:

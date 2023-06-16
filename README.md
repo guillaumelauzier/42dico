@@ -321,10 +321,45 @@ In C programming, several characters and character sequences are used with speci
 
 Note: The meaning of these characters can change depending on the context. For example, `*` can be used for multiplication in an arithmetic expression, to declare a pointer variable, or to dereference a pointer.
 
+# Common format specifiers
 
+- `%d` or `%i`: Used for signed decimal integers. Example: `printf("%d", 5);` prints `5`.
+- `%u`: Used for unsigned decimal integers. Example: `printf("%u", -5);` prints `4294967291` (on a system with 32-bit integers).
+- `%f`: Used for floating-point values. Example: `printf("%f", 3.14);` prints `3.140000`.
+- `%s`: Used for strings. Example: `printf("%s", "Hello");` prints `Hello`.
+- `%c`: Used for characters. Example: `printf("%c", 'A');` prints `A`.
+- `%x` or `%X`: Used for unsigned hexadecimal integers (lowercase and uppercase). Example: `printf("%x", 255);` prints `ff`.
+- `%o`: Used for octal (base 8) values. Example: `printf("%o", 8);` prints `10`.
+- `%e` or `%E`: Used for scientific notation (lowercase and uppercase). Example: `printf("%e", 300.5);` prints `3.005000e+02`.
+- `%g` or `%G`: Used for shorter of `%f` and `%e` (lowercase and uppercase). Example: `printf("%g", 300.5);` prints `300.5`.
+- `%p`: Used for pointer address. Example: `int x; printf("%p", &x);` prints the address of `x`.
+- `%hd` and `%hi`: Used for `short int` (signed).
+- `%hu`: Used for `unsigned short int`.
+- `%ld` and `%li`: Used for `long int` (signed).
+- `%lu`: Used for `unsigned long int`.
+- `%lld` and `%lli`: Used for `long long int` (signed).
+- `%llu`: Used for `unsigned long long int`.
+- `%f`, `%lf`, `%Lf`: Used for `float`, `double`, and `long double` respectively.
+- `%a` and `%A`: Used for hexadecimal floating-point number.
+- `%n`: Used to get the number of characters written so far.
+- `%hhX`, `%hX`, `%lX`, `%llX`: Used for `unsigned char`, `unsigned short int`, `unsigned long int` and `unsigned long long int` as uppercase hexadecimal.
+- `%hhx`, `%hx`, `%lx`, `%llx`: Same as above but for lowercase hexadecimal.
+- `%ho`, `%hho`, `%lo`, `%llo`: Used for `unsigned short int`, `unsigned char`, `unsigned long int`, and `unsigned long long int` as octal.
 
+You can also modify these with various flags and field widths:
 
+- `%-10d`: Left-justify the integer in a field of width 10. Example: `printf("%-10d", 5);` prints `5         `.
+- `%08d`: Pad the integer with zeroes to fill a field of width 8. Example: `printf("%08d", 123);` prints `00000123`.
+- `%.2f`: Print a floating point number with 2 digits after the decimal point. Example: `printf("%.2f", 3.14159);` prints `3.14`.
 
+Additionally, there are a few specifiers that are used with non-standard types:
+
+- `%zu`: Used for `size_t`.
+- `%zd`: Used for `ssize_t`.
+- `%tX`, `%tx`: Used for `ptrdiff_t` as hexadecimal (uppercase and lowercase respectively).
+- `%to`: Used for `ptrdiff_t` as octal.
+
+It's also worth noting that the exact behavior of these format specifiers can depend on the system and compiler you're using. Always consult your compiler's documentation to make sure you're using the right format specifier for your needs.
 
 
 
